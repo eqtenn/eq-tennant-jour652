@@ -1,0 +1,24 @@
+/* styles for my resume */
+
+body {
+  font-family: 'Open Sans', Arial, sans-serif;
+  color: #444;
+  font-weight: 400;
+}
+
+h1 {
+  color: #33485e;
+  text-transform: uppercase;
+}
+
+strong {
+  color: #33485e;
+}
+
+
+
+
+/* Here `Arial` is the fallback font for <p> tags */
+p {
+  font-family: "Helvetica", "Arial";
+}
