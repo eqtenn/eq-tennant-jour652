@@ -6,19 +6,49 @@ body {
   font-weight: 400;
 }
 
+/* Name below */
 h1 {
   color: #33485e;
   text-transform: uppercase;
+  font-size: 3em;
 }
 
+/* Current title occupation below */
 strong {
   color: #33485e;
+  text-transform: uppercase;
+  font-size: 1.5em;
 }
 
+/* Job title  below */
+h2 {
+  color: #FFFFFF;
+  background-color: #33485e;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  font-weight: 400;
+}
 
+/* Job title held below */
+h3 {
+  font-weight: 600;
+  font-size: 1.5em;
+}
 
+/* Job organization below */
+h4 {
+  font-weight: 400;
+  font-size: 1.5em;
+}
 
-/* Here `Arial` is the fallback font for <p> tags */
-p {
-  font-family: "Helvetica", "Arial";
+/* Dates of employment below */
+h5 {
+  font-weight: 400;
+  font-size: 1em;
+  font-style: italic;
+}
+
+/* Contact and Skills list below */
+li {
+  font-size: 1em;
 }
