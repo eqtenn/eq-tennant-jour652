@@ -13,7 +13,7 @@ body {
   font-size: 3em;
   font-weight: 500;
   text-align: center;
-  border-bottom: 4px solid #33485e;
+  border-bottom: 1px solid #33485e;
   width: 60%;
   min-width: 300px;
   margin: 0 auto;
@@ -97,6 +97,7 @@ body {
    display:inline;
 }
 
+/* List of Education below */
 .degrees {
   margin-top: 5px;
   margin-left: 0px;
@@ -104,6 +105,7 @@ body {
   margin-bottom: 0px;
 }
 
+/* List of Skills below */
 .do {
   margin-top: 5px;
   margin-left: 0px;
