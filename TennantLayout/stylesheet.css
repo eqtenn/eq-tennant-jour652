@@ -9,15 +9,36 @@ font-style: italic;
 h1 {
 color: #999999;
 font-family: helvetica, sans-serif;
-font-size: 16px;
+font-size: 18px;
 font-weight: bold;
 margin-top: 0px;
 margin-bottom: 10px;
 }
 
 p {
-  font-family: georgia;
+  font-family: georgia, serif;
   font-size: 13px;
+}
+
+img {
+  width: 100%;
+}
+
+#graphic {
+  width: 100%;
+}
+
+#caption {
+  color: #999999;
+  font-family: georgia;
+  font-size: 12px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+#source {
+  font-famrily: georgia;
+  font-size: 10px;
 }
 
 #content {
@@ -28,9 +49,9 @@ p {
 blockquote {
 font: 24px normal helvetica, sans-serif;
 font-style: italic;
-margin-top: 15px;
-margin-bottom: 15px;
-color: red;
+margin-top: 25px;
+margin-bottom: 25px;
+color: gray;
 margin-left: 50px;
 padding-left: 15px;
 border-left: 4px solid #ccc;
