@@ -40,6 +40,15 @@ img {
   width: 100%;
 }
 
+#nameplate {
+  image-orientation: center;
+  width: 70%;
+  min-width: 200px;
+  margin: 0 auto;
+  padding-top: 0px;
+  padding-bottom: 25px;
+}
+
 #caption {
   color: #999999;
   font-family: georgia, serif;
