@@ -1,5 +1,4 @@
 
-
 #byline {
 font-family: Helvetica, sans-serif;
 font-size: 14px;
@@ -7,6 +6,15 @@ font-style: italic;
 }
 
 h1 {
+color: #999999;
+font-family: helvetica, sans-serif;
+font-size: 24px;
+font-weight: bold;
+margin-top: 0px;
+margin-bottom: 10px;
+}
+
+h3 {
 color: #999999;
 font-family: helvetica, sans-serif;
 font-size: 18px;
@@ -22,6 +30,10 @@ p {
 
 img {
   width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 #graphic {
@@ -30,14 +42,15 @@ img {
 
 #caption {
   color: #999999;
-  font-family: georgia;
+  font-family: georgia, serif;
   font-size: 12px;
   margin-top: 0px;
   margin-bottom: 20px;
 }
 
 #source {
-  font-famrily: georgia;
+  color: #999999;
+  font-family: georgia, serif;
   font-size: 10px;
 }
 
@@ -56,3 +69,10 @@ margin-left: 50px;
 padding-left: 15px;
 border-left: 4px solid #ccc;
 }
+
+ul li {
+color: #999999;
+font-family: helvetica, sans-serif;
+font-size: 14px;
+margin-top: 0px;
+margin-bottom: 10px;
