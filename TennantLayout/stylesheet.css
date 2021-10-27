@@ -1,10 +1,24 @@
 
+/* Styles for my Midterm Review */
+
+/* Digital pub and dept. section nameplate design I did myself */
+#nameplate {
+  image-orientation: center;
+  width: 70%;
+  min-width: 200px;
+  margin: 0 auto;
+  padding-top: 0px;
+  padding-bottom: 25px;
+}
+
+/* Author byline below */
 #byline {
 font-family: Helvetica, sans-serif;
 font-size: 14px;
 font-style: italic;
 }
 
+/* Main headline below */
 h1 {
 color: #999999;
 font-family: helvetica, sans-serif;
@@ -14,12 +28,12 @@ margin-top: 0px;
 margin-bottom: 10px;
 }
 
-h3 {
+h2 {
 color: #999999;
 font-family: helvetica, sans-serif;
 font-size: 18px;
 font-weight: bold;
-margin-top: 0px;
+margin-top: 20px;
 margin-bottom: 10px;
 }
 
@@ -38,15 +52,6 @@ img {
 
 #graphic {
   width: 100%;
-}
-
-#nameplate {
-  image-orientation: center;
-  width: 70%;
-  min-width: 200px;
-  margin: 0 auto;
-  padding-top: 0px;
-  padding-bottom: 25px;
 }
 
 #caption {
