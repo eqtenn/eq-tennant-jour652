@@ -1,0 +1,107 @@
+
+/* Styles for my midterm */
+
+/* Digital pub and dept. section nameplate design I did myself */
+#banner {
+  image-orientation: center;
+  width: 70%;
+  min-width: 200px;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-top: 0px;
+  padding-bottom: 25px;
+}
+
+/* Author byline below */
+#byline {
+font-family: Helvetica, sans-serif;
+color: #730016;
+font-size: 12px;
+font-style: italic;
+}
+
+/* Main headline serif style with backups below */
+h1 {
+color: #000000;
+font-family: lora, georgia, serif;
+font-size: 28px;
+font-weight: bold;
+margin-top: 0px;
+margin-bottom: 10px;
+}
+
+/* Main text style with backups below */
+h2 {
+color: #730016;
+font-family: lora, georgia, serif;
+font-size: 18px;
+font-weight: bold;
+margin-top: 20px;
+margin-bottom: 10px;
+}
+
+h3 {
+color: #730016;
+font-family: lora, georgia, serif;
+font-size: 14px;
+font-weight: bold;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+p {
+  font-family: arial, helvetica, sans-serif;
+  font-size: 12px;
+}
+
+img {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#graphic {
+  width: 100%;
+}
+
+/* photo and caption styles with backups below */
+#caption {
+  color: #999999;
+  font-family: georgia, serif;
+  font-size: 12px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+#source {
+  color: #999999;
+  font-family: georgia, serif;
+  font-size: 10px;
+}
+
+#content {
+  margin: 0 auto;
+  width: 900px;
+}
+
+/* Pull quote style with backups below */
+
+blockquote {
+font: 16px arial, helvetica, sans-serif;
+font-style: italic;
+margin-top: 25px;
+margin-bottom: 25px;
+color: #730016;
+margin-left: 50px;
+padding-left: 15px;
+border-left: 4px solid #ccc;
+}
+
+ul li {
+color: #999999;
+font-family: helvetica, sans-serif;
+font-size: 14px;
+margin-top: 0px;
+margin-bottom: 10px;
