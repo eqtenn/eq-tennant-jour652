@@ -7,38 +7,78 @@
   font-weight: 700;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
+  margin-top: 40px;
 }
 
-
-/* OLD CSS from MIDTERM Guideline ONLY: Author byline below */
 #byline {
-font-family: Helvetica, sans-serif;
-color: #730016;
-font-size: 12px;
-font-style: italic;
+  font-size: 1em;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
 }
 
-/* Main headline serif style with backups below */
-h1 {
-color: #000000;
-font-family: lora, georgia, serif;
-font-size: 28px;
-font-weight: bold;
-margin-top: 0px;
-margin-bottom: 10px;
+p {
+  font-family: Georgia, serif;
+  line-height: 180%;
+  font-size: 1em;
 }
 
-/* Main text style with backups below */
+/* Chapter Style */
 h2 {
-color: #730016;
-font-family: lora, georgia, serif;
-font-size: 18px;
-font-weight: bold;
-margin-top: 20px;
-margin-bottom: 10px;
+font-family: 'Montserrat', sans-serif;
+font-size: 2em;
+font-weight: 700;
+margin-top: 40px;
+margin-bottom: 20px;
 }
 
-h3 {
+
+/* Photo and Caption Styles with Backups below */
+img {
+  max-width: 75%;
+  height: auto;
+  margin: auto;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#caption {
+  color: #999999;
+  font-family: Georgia, serif;
+  font-size: 1em;
+  text-align: center;
+  display: block;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+#source {
+  color: #999999;
+  font-family: Georgia, serif;
+  font-size: 11px;
+}
+
+/* Hero Image Style */
+.bgimage {
+  width:100%;
+  height:500px;
+  background: url('images/aditya-siva-3P1G67zNyCI-unsplash.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  background-attachment: fixed;
+}
+
+.bgimage h5 {
+  color:white;
+  text-shadow:2px 2px #333;
+}
+
+
+h5 {
 color: #730016;
 font-family: lora, georgia, serif;
 font-size: 14px;
@@ -47,42 +87,26 @@ margin-top: 10px;
 margin-bottom: 10px;
 }
 
-p {
-  font-family: arial, helvetica, sans-serif;
-  font-size: 12px;
+
+/* Footer Style */
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
 }
 
-img {
+#content-wrap {
+  padding-bottom: 2.5rem;    /* Footer height */
+}
+
+#footer {
+  position: absolute;
+  background-color: black;
+  text-align: center:
+  bottom: 0;
   width: 100%;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-}
+  height: 2.5rem;            /* Footer height */
 
-#graphic {
-  width: 100%;
-}
-
-/* photo and caption styles with backups below */
-#caption {
-  color: #999999;
-  font-family: georgia, serif;
-  font-size: 12px;
-  margin-top: 0px;
-  margin-bottom: 20px;
-}
-
-#source {
-  color: #999999;
-  font-family: georgia, serif;
-  font-size: 10px;
-}
-
-#content {
-  margin: 0 auto;
-  width: 900px;
-}
 
 /* Pull quote style with backups below */
 
