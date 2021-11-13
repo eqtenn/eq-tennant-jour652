@@ -1,18 +1,16 @@
 
-/* Styles for my midterm */
+/* Styles for my html frame */
 
-/* Digital pub and dept. section nameplate design I did myself */
-#banner {
-  image-orientation: center;
-  width: 70%;
-  min-width: 200px;
-  max-width: 1000px;
-  margin: 0 auto;
-  padding-top: 0px;
-  padding-bottom: 25px;
+/* BEGIN NEW HERE */
+#headline {
+  font-size: 3em;
+  font-weight: 700;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
 }
 
-/* Author byline below */
+
+/* OLD CSS from MIDTERM Guideline ONLY: Author byline below */
 #byline {
 font-family: Helvetica, sans-serif;
 color: #730016;
