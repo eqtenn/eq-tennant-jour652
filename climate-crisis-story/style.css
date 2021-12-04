@@ -126,6 +126,13 @@ margin-bottom: 10px;
   width: 100%;
   height: 3.5rem;            /* Footer height */
 
+/* contributor paragraph style */
+#contributor {
+  font-family: Georgia, serif;
+  line-height: 180%;
+  font-size: 1em;
+  font-style: italic;
+}
 
 /* Pull quote style with backups below */
 
