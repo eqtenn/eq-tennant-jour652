@@ -209,7 +209,7 @@ p {
   padding-right: 1em;
   font-family: 'Raleway', sans-serif;
   font-size: .8em;
-  text-align: left;
+  text-align: center;
   color:#000;
 }
 
@@ -227,6 +227,18 @@ p {
 
 .text-box-text{
   font-size: 0.8em;
+}
+
+/* States for Hyperlinks Styles */
+a:link {
+    color: #f23030;
+}
+a:visited {
+    color: hotpink;
+}
+a:hover {
+    color: #000;
+    text-decoration: none;
 }
 
 /* Previous HTML-Frame Styles */
