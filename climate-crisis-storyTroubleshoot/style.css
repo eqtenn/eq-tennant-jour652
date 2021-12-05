@@ -3,9 +3,10 @@
 
 /* BEGIN NEW HERE */
 #headline {
-  font-size: 3em;
+  font-size: 4em;
   font-weight: 700;
   text-align: center;
+  color: #E3170D;
   font-family: 'Montserrat', sans-serif;
   margin-top: 40px;
 }
@@ -21,21 +22,33 @@ p {
   font-family: Georgia, serif;
   line-height: 180%;
   font-size: 1em;
+  max-width: 600px;
 }
 
 /* Chapter Style */
 h2 {
-font-family: 'Montserrat', sans-serif;
-font-size: 2em;
-font-weight: 700;
-margin-top: 40px;
-margin-bottom: 20px;
+ font-family: 'Montserrat', sans-serif;
+ font-size: 2em;
+ font-weight: 600;
+ text-align: center;
+ margin-top: 40px;
+ margin-bottom: 20px;
+}
+
+h3 {
+ font-family: 'Montserrat', sans-serif;
+ font-size: 1.5em;
+ font-weight: 700;
+ color: #E3170D;
+ text-transform: uppercase;
+ margin-top: 40px;
+ margin-bottom: 20px;
 }
 
 
 /* Photo and Caption Styles with Backups below */
 img {
-  max-width: 75%;
+  max-width: 90%;
   height: auto;
   margin: auto;
   display: block;
@@ -64,8 +77,8 @@ img {
 /* Hero Image Style */
 .bgimage {
   width:100%;
-  height:500px;
-  background: url('images/aditya-siva-3P1G67zNyCI-unsplash.jpg');
+  height:600px;
+  background: url('images/david.muse_.wallhunters-_14.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size:cover;
@@ -82,16 +95,22 @@ h5 {
 color: #730016;
 font-family: lora, georgia, serif;
 font-size: 14px;
+
 font-weight: bold;
 margin-top: 10px;
 margin-bottom: 10px;
 }
 
+/* Center Content Columnm */
+#content {
+  margin: 0 auto;
+  width: 700px;
+}
 
-/* Container Style for Three Columns*/
+/* Container Style for Three Columns */
 #container {
   position: relative;
-  text-align: center;
+  margin: 0 auto;
   margin-bottom: 70px 0;
 }
 
@@ -115,6 +134,13 @@ margin-bottom: 10px;
   width: 100%;
   height: 3.5rem;            /* Footer height */
 
+/* contributor paragraph style */
+#contributor {
+  font-family: Georgia, serif;
+  line-height: 180%;
+  font-size: 1em;
+  font-style: italic;
+}
 
 /* Pull quote style with backups below */
 
