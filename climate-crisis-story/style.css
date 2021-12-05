@@ -169,6 +169,68 @@ p {
 
 }
 
+
+/* Sidebar style */
+
+.text-box{
+  background-color: #fff;
+  width: 80%;
+  margin: 0 auto;
+  border: solid #f23030 1px;
+}
+
+.text-box-title{
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.25em;
+  text-align: center;
+  color:	white;
+  background: #f23030;;
+}
+
+.text-box-text{
+  padding-left: 3em;
+  padding-right: 3em;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1em;
+  text-align: left;
+  color:#000;
+}
+
+.text-box-intro-text{
+  padding-left: 1em;
+  padding-right: 1em;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1em;
+  text-align: left;
+}
+
+.text-box-source-text{
+  padding-left: 1em;
+  padding-right: 1em;
+  font-family: 'Raleway', sans-serif;
+  font-size: .8em;
+  text-align: left;
+  color:#000;
+}
+
+.text-box-text li{
+  line-height: 2;
+}
+
+.text-box{
+   width: 70%;
+}
+
+.text-box-title{
+  font-size: 1em;
+}
+
+.text-box-text{
+  font-size: 0.8em;
+}
+
+/* Previous HTML-Frame Styles */
+
 .headings {
  text-align: center;
  padding-bottom: 10px;
