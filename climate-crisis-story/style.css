@@ -1,13 +1,13 @@
 #headline {
-  font-size: 3em;
+  font-size: 2em;
   font-weight: 700;
   text-align: center;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 #byline {
   font-size: 1em;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
   text-align: center;
 }
@@ -16,13 +16,24 @@
   font-size: 2em;
   font-weight: 700;
   text-align: left;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Raleway', sans-serif;
+}
+
+h3 {
+  font-size: 1.5em;
+  font-weight: 700;
+  color: #f23030;
+  text-align: left;
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  padding-top: 15px;
+  padding-bottom: 10px;
 }
 
 p {
-  font-family: Georgia, serif;
+  font-family: 'Libre Baskerville', serif;
   line-height: 180%;
-  font-size: 1em;
+  font-size: 1.2em;
 }
 
 .container {
@@ -61,42 +72,60 @@ p {
 
 .overlay {
   position: absolute;
-  margin: 0 auto; left: 0; right: 0;
-  top: 0%;
-  width: 47%;
-  background-color: black;
-  opacity: .8;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-bottom: 10px;
+  top: 30%;
+  width: 100%;
+  text-align: center;
+  background-color: #fff;
+  opacity: .6;
 }
 
+
 .hero-hed {
-  font-family: 'Montserrat', serif;
-  font-weight: 900;
-  font-size: 3em;
-  color: #fff;
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 700;
+  font-size: 5em;
+  text-transform: inherit;
+  color: #f23030;
   margin: 0 auto;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
 }
 
 .hero-sub {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1em;
+  font-family: 'Raleway', sans-serif;
+  font-size: .25em;
+  color: black;
 }
 
 /* End Hero Splash Area */
 
+/* Media Queries */
 
+@media (max width: 800px) {
+
+  .hero-hed {
+    font-size: 1.5em;
+  }
+}
+
+.intro-graf {
+  font-family: 'Raleway', sans-serif;
+  font-size: 2em;
+  font-weight: 500;
+  color: #f23030;
+  padding-bottom: 30px;
+}
 
 /* Photo/Figure Caption Style */
-figcaption {
-  font-family: 'Montserrat', sans-serif;
+
+.caption {
+  font-family: 'Raleway', sans-serif;
   text-align: left;
   font-weight: 300;
-  font-size: 1em;
+  font-size: .5em;
   margin-left: 70px;
   margin-right: 60px;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
 }
 
 .pictures {
@@ -106,6 +135,14 @@ figcaption {
  width= 80%;
 }
 
+.contributors {
+  font-family: 'Raleway', sans-serif;
+  text-align: left;
+  font-weight: 300;
+  color: #f23030;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
 
 .headings {
  text-align: center;
@@ -123,6 +160,6 @@ figcaption {
 }
 
 .columns {
-  font-family: Georgia, serif;
+  font-family: 'Libre Baskerville', serif;
   text-align: center;
 }
