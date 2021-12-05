@@ -120,10 +120,11 @@ p {
 .caption {
   font-family: 'Raleway', sans-serif;
   text-align: left;
-  font-weight: 300;
+  font-weight: 500;
   font-size: .5em;
-  margin-left: 70px;
-  margin-right: 60px;
+  color: #f23030;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 20px;
   padding-bottom: 20px;
 }
