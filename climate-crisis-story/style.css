@@ -150,21 +150,21 @@ p {
 .quote {
   font-family: 'Raleway', sans-serif;
   text-align: left;
-  font-size: 1.5em;
+  font-size: 3em;
   font-weight: 600;
   color: #f23030;
   padding: 15px 0 15px 0;
-  border-top: 3px solid #000;
+  border-top: 4px solid #000;
   border-bottom: 1px solid #000;
-  margin-top: 20px;
+  margin-top: 30px;
   margin-bottom: 20px;
 }
 
 .quote-attribution {
   font-family: 'Raleway', sans-serif;
   text-align: left;
-  font-size: .5em;
-  font-weight: 100;
+  font-size: .75em;
+  font-weight: 200;
   color: #000;
 
 }
