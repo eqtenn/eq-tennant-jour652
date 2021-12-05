@@ -63,26 +63,26 @@ img {
 
 /* Top Hat/Top Nav */
 .nav-top {
-  color:white;
+  color: white;
   margin: 0 auto;
   text-transform: uppercase;
-
+  font-weight: 700;
 }
 
-/* Hero Image Style */
-.bgimage {
-  width:100%;
-  height:500px;
-  background: url('images/aditya-siva-3P1G67zNyCI-unsplash.jpg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size:cover;
-  background-attachment: fixed;
+.red {
+  color: #f23030;
 }
 
-.bgimage h5 {
-  color:white;
-  text-shadow:2px 2px #333;
+/* Hero Splash Style */
+
+.hero-container {
+  position: relative;
+  text-align: center;
+  color: #fff;
+}
+
+.hero-image {
+  width: 100%;
 }
 
 
