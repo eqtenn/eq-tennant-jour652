@@ -1,20 +1,22 @@
-
-/* Styles for my html frame */
-
-/* BEGIN NEW HERE */
 #headline {
   font-size: 3em;
   font-weight: 700;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
-  margin-top: 40px;
 }
 
 #byline {
   font-size: 1em;
-  text-align: center;
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
+  text-align: center;
+}
+
+#chapter {
+  font-size: 2em;
+  font-weight: 700;
+  text-align: left;
+  font-family: 'Montserrat', sans-serif;
 }
 
 p {
@@ -23,42 +25,12 @@ p {
   font-size: 1em;
 }
 
-/* Chapter Style */
-h2 {
-font-family: 'Montserrat', sans-serif;
-font-size: 2em;
-font-weight: 700;
-margin-top: 40px;
-margin-bottom: 20px;
-}
-
-
-/* Photo and Caption Styles with Backups below */
-img {
-  max-width: 75%;
-  height: auto;
-  margin: auto;
-  display: block;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-}
-
-#caption {
-  color: #999999;
-  font-family: Georgia, serif;
-  font-size: 1em;
-  text-align: center;
-  display: block;
-  margin-top: 0px;
-  margin-bottom: 20px;
-}
-
-#source {
-  color: #999999;
-  font-family: Georgia, serif;
-  font-size: 11px;
+.container {
+  margin: 0 auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 30px;
+  padding-bottom: 10px;
 }
 
 /* Top Hat/Top Nav */
@@ -72,74 +44,85 @@ img {
 .red {
   color: #f23030;
 }
+/* End of Top Hat/Top Nav */
+
 
 /* Hero Splash Style */
 
 .hero-container {
-  position: relative;
-  text-align: center;
-  color: #fff;
+    position: relative;
+    text-align: center;
+    color: #fff;
 }
 
 .hero-image {
-  width: 100%;
+    width: 100%;
 }
 
-
-h5 {
-color: #730016;
-font-family: lora, georgia, serif;
-font-size: 14px;
-font-weight: bold;
-margin-top: 10px;
-margin-bottom: 10px;
-}
-
-
-/* Container Style for Three Columns*/
-#container {
-  position: relative;
-  text-align: center;
-  margin-bottom: 70px 0;
-}
-
-/* Footer Style */
-
-#page-container {
-  position: relative;
-  min-height: 100vh;
-}
-
-#content-wrap {
-  padding-bottom: 3.5rem;    /* Footer height */
-}
-
-#footer {
+.overlay {
   position: absolute;
+  margin: 0 auto; left: 0; right: 0;
+  top: 0%;
+  width: 47%;
   background-color: black;
-  color: white;
-  text-align: center;
-  bottom: 0;
-  width: 100%;
-  height: 3.5rem;            /* Footer height */
-
-
-/* Pull quote style with backups below */
-
-blockquote {
-font: 16px arial, helvetica, sans-serif;
-font-style: italic;
-margin-top: 25px;
-margin-bottom: 25px;
-color: #730016;
-margin-left: 50px;
-padding-left: 15px;
-border-left: 4px solid #ccc;
+  opacity: .8;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
 }
 
-ul li {
-color: #999999;
-font-family: helvetica, sans-serif;
-font-size: 14px;
-margin-top: 0px;
-margin-bottom: 10px;
+.hero-hed {
+  font-family: 'Montserrat', serif;
+  font-weight: 900;
+  font-size: 3em;
+  color: #fff;
+  margin: 0 auto;
+  padding-bottom: 10px;
+}
+
+.hero-sub {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+}
+
+/* End Hero Splash Area */
+
+
+
+/* Photo/Figure Caption Style */
+figcaption {
+  font-family: 'Montserrat', sans-serif;
+  text-align: left;
+  font-weight: 300;
+  font-size: 1em;
+  margin-left: 70px;
+  margin-right: 60px;
+}
+
+.pictures {
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width= 80%;
+}
+
+
+.headings {
+ text-align: center;
+ padding-bottom: 10px;
+}
+
+.footer {
+  position: static;
+  height: 100px;
+  width: 100%;
+  bottom: 0;
+  background-color: black;
+  text-align: center;
+  color: white;
+}
+
+.columns {
+  font-family: Georgia, serif;
+  text-align: center;
+}
