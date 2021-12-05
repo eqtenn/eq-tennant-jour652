@@ -61,6 +61,14 @@ img {
   font-size: 11px;
 }
 
+/* Top Hat/Top Nav */
+.nav-top {
+  color:white;
+  margin: 0 auto;
+  text-transform: uppercase;
+
+}
+
 /* Hero Image Style */
 .bgimage {
   width:100%;
