@@ -25,9 +25,10 @@ p {
 
 /* Chapter Style */
 h2 {
-font-family: 'Montserrat', sans-serif;
+font-family: 'Raleway', sans-serif;
 font-size: 2em;
 font-weight: 700;
+color: #A9A9A9;
 margin-top: 40px;
 margin-bottom: 20px;
 }
@@ -64,9 +65,11 @@ img {
 /* Navbar Top Hat */
 .nameplate-top {
   color: #999999;
-  font-family: Montserrat, sans-serif;
-  font-size: 1.5em;
+  font-family: Raleway, san-serif;
+  font-size: 1.75em;
+  font-weight: 400;
   text-align: left;
+  text-transform: uppercase;
   display: block;
   margin-top: 20px;
   margin-left: 10px;
@@ -97,6 +100,30 @@ font-size: 14px;
 font-weight: bold;
 margin-top: 10px;
 margin-bottom: 10px;
+}
+
+/* Pull Quote style */
+
+.quote {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  font-size: 2em;
+  font-weight: 600;
+  color: #ff8c00;
+  padding: 15px 0 15px 0;
+  border-top: 3px solid #000;
+  border-bottom: 1px solid #000;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.quote-attribution {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  font-size: .5em;
+  font-weight: 200;
+  color: #000;
+
 }
 
 
